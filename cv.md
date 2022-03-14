@@ -1,3 +1,7 @@
 # Semen Larin
 
-## Contacts
+## Contact information
+
+### Skype: live:navigatorsvs
+### E-mail: navigatorsvs@gmail.com
+### Telegram: @hannavoloshyna
