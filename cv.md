@@ -4,4 +4,4 @@
 
 ### Skype: live:navigatorsvs
 ### E-mail: navigatorsvs@gmail.com
-### Telegram: @hannavoloshyna
+### Telegram: @SemenLarin1
