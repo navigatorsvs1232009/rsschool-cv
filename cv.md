@@ -16,14 +16,17 @@ Skills
 
 * HTML
 * CSS
+* Javascript
 * SQL
 * Windows OS, Linux(Ubuntu, Debian, Kali)
 
 Education
 ---------
 
-2005-2010 
 :   **ZABAYKAL'SKIY State University, mining faculty**; (Chita)
+:   ** Html academy
+:   ** SQL academy
+:   ** FreeCodecamp
 
 Code examples
 --------------------
