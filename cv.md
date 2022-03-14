@@ -15,11 +15,8 @@ Skills
 ----------
 
 * HTML
-
 * CSS
-
 * SQL
-
 * Windows OS, Linux(Ubuntu, Debian, Kali)
 
 Education
