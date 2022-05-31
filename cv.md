@@ -31,9 +31,8 @@ Education
 Code examples
 --------------------
 
-    * var stringToNumber = function(str){
-    return Number(str) ; 
-    }
+const array = [50, 60, 70];
+console.log(array[0]);
 
 
 Languages
