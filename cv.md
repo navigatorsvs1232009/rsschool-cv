@@ -31,7 +31,7 @@ Education
 Code examples
 --------------------
 
-    * var stringToNumber = function(str){
+    let stringToNumber = function(str){
     return Number(str) ; 
     }
 
