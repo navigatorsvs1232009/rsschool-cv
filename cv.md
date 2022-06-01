@@ -23,7 +23,7 @@ Skills
 Education
 ---------
 
-* ZABAYKAL'SKIY State University, mining faculty**; (Chita)
+* ZABGU, mining faculty**; (Chita)
 * Html academy
 * SQL academy
 * FreeCodecamp
