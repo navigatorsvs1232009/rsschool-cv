@@ -1,4 +1,4 @@
-# rsschool-cv
-### rsschool-cv
-### https://github.com/navigatorsvs1232009/rsschool-cv/blob/gh-pages/cv.md
-### https://github.com/navigatorsvs1232009/rsschool-cv/blob/gh-pages/Travel
+* https://navigatorsvs1232009.github.io/rsschool-cv/
+* https://navigatorsvs1232009.github.io/rsschool-cv/cv
+* https://navigatorsvs1232009.github.io/rsschool-cv/Travel
+
