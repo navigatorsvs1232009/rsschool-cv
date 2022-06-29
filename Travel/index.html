@@ -18,149 +18,132 @@
 </head>
 <body>
 <header class="header">
-    <div class="wrapper">
-        <div class="header__wrapper">
-            <div class="header__logo">
-                <a href="/" class="header__logo__link">
-                    <img src="./img/Vector.png" alt="Logo" class="header__logo__pic">
-                </a>
-                <a class="header__login_text" href="#">Travel Portal </a>
-            </div>
-                    <nav class="header__nav">
-                        <ul class="header__list">
-                            <li class="header__item">
-                                <a href="#" class="header__link">How It Works</a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#" class="header__link">Plan Your Trip</a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#" class="header__link">Destinations</a>
-                            </li>
-                            <li class="header__item">
-                                <a href="#" class="header__link">Travel Stories</a>
-                            </li>
-                        
-                        </ul>
-                    </nav>
-                        <button class="button__login">Login</button>
-        </div>
-    </div>
-</header>
-
-<main class="main">
-    <section class="preview">
-    <div class="wrapper__preview">
-        <h1 class="preview__title">Explore the beauty of the World</h1>
-        <p class="preview__subtitle">Recieve personalized recommendations for countries, hotels, activities and more</p>
-        
-        <form  class="search-form">
-            <Fieldset class="search-form__wrap">
-                <p class="search-form__preview">
-                    <input type="text" class="search-form__field" placeholder="What would you like to do?">
-                    <button type="submit" class="search-form__submit">Start Planning</button>
-                </p>
-            </Fieldset>
-        </form>
-
-</div>    
-    </section>
-<section class="steps">
-        <h3>3 STEPS TO THE PERFECT TRIP</h3>
-       
-    <section class="steps__item">
-        <div class="step1">
-            <img src="./img/bicicle.png" alt="item1">  
-       
-        </div>
-        <div class="step1"><img src="./img/calendar.png" alt="item1"></div>
-        <div class="step1"><img src="./img/fly.png" alt="item1"></div>
-   
-    </section></section>
-<div class="step__h">
-    <h4>Tell us what you want to do</h4>   
-    <h4>Share us preferable dates </h4>        S
-    <h4>We will give you recommendations</h4>
-     </div>
-     <div class="steps">
-        <h3>POPULAR DESTINATIONS</h3>
-        <div class="wrap_slider">
-            <img src="./img/left_slid.jpg" alt="imgr" class="slider-left">
-            <img src="./img/center_sl.jpg" alt="imgr" class="slider-left">
-            <img src="./img/right_sl.jpg" alt="imgr" class="slider-left">
-        </div>
-    </div>
-    <div class="slider__radio">
-        <input type="radio" name="switch" id="i_1">
-<input type="radio" name="switch" id="i_2">
-<input type="radio" name="switch" id="i_3" checked>
-
-<div class="button__slider">
-    <button type="submit" class="search-form__submit">Start Planning</button>
-</div>
-    </div>
-<section class="stories">
-    <h3>TRAVEL STORIES</h3>
-<div class="wrap__stories">
-
-    <div class="stories_block">
-        <div class="stories-pic">
-            <img class="stor__logo" src="./img/1.jpg" alt="mountins">
+    <div class="header__wrapper">
+        <div class="header__logo">
+            <a href="/" class="header__logo-link">
+                <img src="./img/Logo.png" alt="Travel" class="header__logo-pic">
+            </a>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
             
+                <ul class="menu__box">
+                  <li><a class="menu__item" href="#">How It Works</a></li>
+                        <li><a class="menu__item" href="#">Plan Your Trip</a></li>
+                        <li><a class="menu__item" href="#">Destinations</a></li>
+                        <li><a class="menu__item" href="#">Travel Stories</a></li>
+                        <li><a class="menu__item" href="#">Account</a></li>
+                        <li><a class="menu__item" href="#">Social Media</a></li>
+                </ul>
+              </div>
         </div>
-            <div class="stories__info">
-                <h4 class="stor__title">10 Photos of Attractive Thailand</h4>
-                <p class="stori__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
-            </div>
-        </div>
-    <div class="stories_block">
-        <div class="stories-pic">
-            <img class="stor__logo" src="./img/2.jpg" alt="mountins">
-        </div>
-            <div class="stories__info">
-                <h4 class="stor__title">Canyonlands National Park, Utah</h4>
-                <p class="stori__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
-            </div>
-    </div>
-    <div class="stories_block">
-        <div class="stories-pic">
-            <img class="stor__logo" src="./img/3.jpg" alt="mountins">
-        </div>
-            <div class="stories__info">
-                <h4 class="stor__title">I left my heart in the Mountains!</h4>
-                <p class="stori__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
-            </div>
-    </div>
-    <div class="stories_block">
-        <div class="stories-pic">
-            <img class="stor__logo" src="./img/4.jpg" alt="mountins">
-        </div>
-            <div class="stories__info">
-                <h4 class="stor__title">The Longest journey in my life!</h4>
-                <p class="stori__info">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit... Read More</p>
-            </div>
-    </div>
-  
+    <form action="" class="search">
+        <input type="search" class="search__text"
+         placeholder="What would you like to do?">
+         <button type="submit" name="submit" class="button__search" value="search">Start Planning</button>
+    </form>
 </div>
+</header>
+<!-- гамбургер меню -->
+<div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
 
+    <ul class="menu__box">
+      <li><a class="menu__item" href="#">How It Works</a></li>
+			<li><a class="menu__item" href="#">Plan Your Trip</a></li>
+			<li><a class="menu__item" href="#">Destinations</a></li>
+			<li><a class="menu__item" href="#">Travel Stories</a></li>
+			<li><a class="menu__item" href="#">Account</a></li>
+			<li><a class="menu__item" href="#">Social Media</a></li>
+    </ul>
+  </div>
 
-
-
-</section>
-</main>
-<footer class="footer">
- 
-    <h5>All Rights Reserved © Travel Portal</h5>
-    <div class="footer-right">
-
-        <a href="#"><img class="img__footer" src="./img/instagram.svg" alt="hrefi"></a>
-        <a href="#"><img class="img__footer" src="./img/youtube.svg" alt="hrefi"></a>
-        <a href="#"><img class="img__footer" src="./img/twitter.svg" alt="hrefi"></a>
-    
-        
-      
+<section class="preview">
+    <h3>3 STEPS TO THE PERFECT TRIP</h3>
+       
+    <div class="steps__item">
+        <div class="step1"><img src="./img/bicicle.png" alt="item1"></div>
+        <div class="step2"><img src="./img/calendar.png" alt="item1"></div>
+        <div class="step3"><img src="./img/fly.png" alt="item1"></div>
     </div>
-</footer>
-
+    <div class="step__h">
+        <h4 class="step_h1">Tell us what you want to do</h4>   
+        <h4 class="step_h2">Share us preferable dates </h4>
+        <h4 class="step_h3">We will give you recommendations</h4>
+         </div>
+</section>
+<section class="destinations">
+    <div class="dest__wrap">
+        <h3 class="dest__h3">POPULAR DESTINATIONS</h3>
+            <div class="wrap_slider">
+                <a class="spain" href="/">SPAIN</a>
+                        <img class="mySlides" src="/img/1.jpg">
+                        <img class="mySlides" src="/img/2.jpg">
+                        <img class="mySlides" src="/img/3.jpg">
+                        <img class="mySlides" src="/img/4.jpg">
+                        <button class="w3-button__w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button__w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                </div>
+</section>
+<button type="submit" name="submit" class="button__find"
+ value="search"> <img class="find-str" src="./img/strelka.svg">Find More</button>
+<section class="stories">
+    <h3 class="stories__h3">TRAVEL STORIES</h3>
+<div class="wrap_backgr_img">
+    <div class="white_backgr">
+            <article class="story__item1">
+                <div class="image">
+                    <img class="imgone" src="./img/1.jpg" alt="one">
+                </div>
+                <div class="block">
+                    <h4 class="stories__h5">10 Photos of Attractive Thailand</h4>
+                    <p class="stori__1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... Read More</p>
+                </div>
+            </article>
+            <article class="story__item1">
+                <div class="image">
+                    <img class="imgone" src="./img/2.jpg" alt="one">
+                </div>
+                <div class="block">
+                    <h4 class="stories__h5">Canyonlands National Park, Utah</h4>
+                    <p class="stori__1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... Read More</p>
+                </div>
+            </article>
+            <article class="story__item1">
+                <div class="image">
+                    <img class="imgone" src="./img/3.jpg" alt="one">
+                </div>
+                <div class="block">
+                    <h4 class="stories__h5">I left my heart in the Mountains!</h4>
+                    <p class="stori__1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... Read More</p>
+                </div>
+            </article>
+            <article class="story__item1">
+                <div class="image">
+                    <img class="imgone" src="./img/4.jpg" alt="one">
+                </div>
+                <div class="block">
+                    <h4 class="stories__h5">I left my heart in the Mountains!</h4>
+                    <p class="stori__1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a... Read More</p>
+                </div>
+            </article>
+            <button type="submit" name="submit" class="button__see"
+            value="search"> <img class="find-str" src="./img/strelka.svg">See More</button>
+    </div>
+    <footer class="footer">
+        
+        <a href="https://github.com/navigatorsvs1232009/rsschool-cv"><img class="img__footer" src="./img/instagram.svg" alt="hrefi"></a>
+        <a href="https://github.com/navigatorsvs1232009/rsschool-cv"><img class="img__footer_youtube" src="./img/youtube.svg" alt="hrefi"></a>
+        <a href="https://github.com/navigatorsvs1232009/rsschool-cv"><img class="img__footer" src="./img/twitter.svg" alt="hrefi"></a>
+    </footer>
+    
+</section>
+<script src="./script.js"></script>
+<script src="./index.js"></script>
 </body>
 </html>
