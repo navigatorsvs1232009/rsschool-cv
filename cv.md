@@ -31,7 +31,6 @@ Education
 
 Code examples
 --------------------
-
 const array = [50, 60, 70];
 console.log(array[0]);
 
