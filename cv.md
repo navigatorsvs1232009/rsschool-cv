@@ -19,7 +19,6 @@ Skills
 * Javascript
 * SQL
 
-
 Education
 ---------
 
@@ -30,13 +29,11 @@ Education
 
 * FreeCodecamp [JavaScript Algorithms and Data Structures](https://www.freecodecamp.org/certification/fcc4f5a3b9e-4fae-490b-8a3c-7493cb6d0b94/responsive-web-design)
 
-
 Code examples
 --------------------
 
 const array = [50, 60, 70];
 console.log(array[0]);
-
 
 Languages
 ----------------------------------------
