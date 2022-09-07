@@ -3,7 +3,7 @@
 
 ## Contact information
 
-#### Skype: live:navigatorsv
+#### Skype: live:navigatorsvs
 #### E-mail: navigatorsvs@gmail.com
 #### Telegram: @SemenLarin1
 
