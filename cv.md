@@ -5,7 +5,7 @@
 
 #### Skype: live:navigatorsvs
 #### E-mail: navigatorsvs@gmail.com
-#### Telegram: @SemenLarin1
+#### Telegram: @navigatorsvs
 
 About Me:
 ----------
